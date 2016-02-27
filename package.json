@@ -1,6 +1,6 @@
 {
   "name": "section-nav",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Renders a menu of anchor links for navigating between sections of a page.",
   "main": "lib/index.js",
   "scripts": {
@@ -21,6 +21,5 @@
     "babel-cli": "^6.5.1",
     "http-server": "^0.9.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
