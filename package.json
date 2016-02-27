@@ -1,0 +1,25 @@
+{
+  "name": "section-nav",
+  "version": "1.0.0",
+  "description": "Renders a menu of anchor links for navigating between sections of a page.",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "npm run watch",
+    "server": "http-server .",
+    "watch": "babel src -d lib --watch --source-maps inline",
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nadavspi/SectionNav.js.git"
+  },
+  "author": "Nadav Spiegelman <me@nadav.name>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "http-server": "^0.9.0"
+  },
+  "dependencies": {
+  }
+}
