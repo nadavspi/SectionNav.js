@@ -7,8 +7,9 @@
     "start": "npm run watch",
     "server": "http-server .",
     "watch": "babel src -d lib --watch --source-maps inline",
-    "build": "babel src -d lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "mkdir -p lib && babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
