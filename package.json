@@ -3,6 +3,11 @@
   "version": "1.0.1",
   "description": "Renders a menu of anchor links for navigating between sections of a page.",
   "main": "lib/index.js",
+  "files": [
+    "lib",
+    "src",
+    "*.md"
+  ],
   "scripts": {
     "start": "npm run watch",
     "server": "http-server .",
