@@ -1,6 +1,6 @@
 {
   "name": "section-nav",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Renders a menu of anchor links for navigating between sections of a page.",
   "main": "lib/index.js",
   "files": [
